@@ -2,8 +2,8 @@
 .hy
 .SH NAME
 .PP
-_printf - formats and prints data. Similar to 
-.B "PRINTF" 
+_printf - formats and prints data. Similar to
+.B "PRINTF"
 in c.
 .PP
 .SH SYNOPSIS

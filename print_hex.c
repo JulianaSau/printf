@@ -10,11 +10,11 @@
 
 int print_hex(va_list args, int len)
 {
-    unsigned int n = va_arg(args, unsigned int);
+	unsigned int n = va_arg(args, unsigned int);
 
-    len += print_numbers(n, 16, "0123456789abcdef");
+	len += print_numbers(n, 16, "0123456789abcdef");
 
-    return (len);
+	return (len);
 }
 
 /**
@@ -27,8 +27,9 @@ int print_hex(va_list args, int len)
 
 int print_heX(va_list args, int len)
 {
-    unsigned int n = va_arg(args, unsigned int);
+	unsigned int n = va_arg(args, unsigned int);
 
-    len += print_numbers(n, 16, "0123456789ABCDEF");
-    return (len);
+	len += print_numbers(n, 16, "0123456789ABCDEF");
+
+	return (len);
 }

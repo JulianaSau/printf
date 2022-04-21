@@ -12,8 +12,8 @@
  */
 typedef struct directives
 {
-    char spec;
-    int (*fspec)(va_list, int);
+	char spec;
+	int (*fspec)(va_list, int);
 } forms;
 
 int _putchar(char c);
